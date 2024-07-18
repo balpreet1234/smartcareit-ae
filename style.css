@@ -1,0 +1,363 @@
+div#navbarSupportedContent {
+    justify-content: end;
+}
+
+a.navbar-brand {
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.banner_content {
+    text-align: center;
+    color: white;
+}
+.banner {
+    background-image: linear-gradient(rgb(0 0 0 / 58%), rgb(0 0 0)), url(./img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+    background-attachment: fixed;
+}
+.footer_logo {
+    background: #fff;
+    padding: 16px;
+    width: 84%;
+    border-radius: 6px;
+}
+header {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+    color: #ffffff;
+}
+
+ul.navbar-nav li a {
+    color: #000;
+}
+
+ul.navbar-nav li a:hover {
+    color: #ffc451;
+}
+
+.banner_content h1 {
+    font-size: 55px;
+}
+
+span {
+    color: #ffc451;
+}
+.nav-link:focus, .nav-link:hover {
+    color:#ffffff;
+}
+
+.boxes {
+    text-align: center;
+    padding: 30px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 100%;
+}
+
+.boxes i {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.boxes h3 {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.boxes h3:hover {
+    color: #ffc451;
+}
+
+.boxes:hover {
+    border: 1px solid #ffc451;
+}
+
+section.aboutus {
+    padding: 60px 0px;
+}
+
+.services h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+
+.services p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #151515;
+}
+
+.services {
+    padding-bottom: 40px;
+}
+
+.icon_services {
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    background: #ffc451;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.icon_services i {
+    color: #151515;
+    font-size: 30px;
+    transition: ease-in-out 0.3s;
+}
+
+.services_content {
+    text-align: center;
+}
+
+.services_box {
+    text-align: center;
+    border: 1px solid #ebebeb;
+    padding: 35px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+    height: 100%;
+}
+
+.services_box:hover {
+    border-color: #fff;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+    transform: translateY(-10px);
+}
+
+.services_section {
+    padding: 60px 0px;
+}
+
+.contact {
+    padding-bottom: 30px;
+}
+
+.contact_section {
+    padding: 60px 0px;
+    background-color: #f1f1f1;
+}
+
+.contact h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+
+.contact p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #151515;
+}
+
+.map iframe {
+    width: 100%;
+}
+
+.address i {
+    font-size: 20px;
+    background: #ffc451;
+    color: #151515;
+    float: left;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.address h3 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #151515;
+}
+
+.address p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #484848;
+}
+
+.email i {
+    font-size: 20px;
+    background: #ffc451;
+    color: #151515;
+    float: left;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.email h3 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #151515;
+}
+
+.email p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #484848;
+}
+
+.phone i {
+    font-size: 20px;
+    background: #ffc451;
+    color: #151515;
+    float: left;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.phone h3 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #151515;
+}
+
+.phone p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #484848;
+}
+
+img.img-fluid.logo {
+    height: 25px;
+    background-color: #ffffff;
+}
+
+button {
+    background: #ffc451;
+    border: 0;
+    padding: 10px 24px;
+    color: #151515;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+.form-control:focus {
+    border-color: #ffc451;
+    box-shadow: none;
+}
+.footer_top{
+    background: #151515;
+    border-bottom: 1px solid #222222;
+    padding: 60px 0 30px 0;
+}
+p.addres {
+    color: #ffffff;
+}
+.newsletter h4{
+    color: #ffffff;
+}
+.newsletter p{
+    color: #ffffff;
+}
+ input[type="submit"] {
+    background: none;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    background: #ffc451;
+    color: #151515;
+}
+footer{
+    background-color: #000000;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    border: none;
+}
+.copyright {
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+p.addres a {
+    color: #ffc451;
+    text-decoration: none;
+}
+
+
+
+.fade-left-element {
+    opacity: 0;
+    transform: translateX(-550px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-left-element.fade-left {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+.fade-right-element {
+    opacity: 0;
+    transform: translateX(550px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-right-element.fade-right {
+    opacity: 1;
+    transform: translateY(0);
+}
